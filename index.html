@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Explorer | Premium Travel Experiences</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <nav>
+        <div class="logo">World<span>Explorer</span></div>
+        <ul>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <header class="hero">
+        <h1>Discover the World's Most Beautiful Places</h1>
+        <p>Experience unforgettable journeys to breathtaking destinations with our expertly crafted travel packages tailored to your dreams.</p>
+        <div>
+            <a href="#destinations" class="btn">Explore Destinations</a>
+            <a href="#packages" class="btn btn-outline">View Packages</a>
+        </div>
+    </header>
+    
+    <div id="main-content">
+
+        <section id="destinations">
+            <div class="section-title">
+                <h2>Top Destinations</h2>
+                <p>Explore our curated selection of the world's most amazing places to visit</p>
+            </div>
+            
+            <div class="destinations">
+                <div class="destination-card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1503917988258-f87a78e3c995?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Paris, France">
+                    </div>
+                    <div class="card-content">
+                        <h3>Paris, France</h3>
+                        <p>The City of Light, famous for its art, fashion, gastronomy and culture. Visit the Eiffel Tower, Louvre, and Notre-Dame.</p>
+                        <a href="#paris" class="btn learn-more" data-destination="paris">Learn More</a>
+                    </div>
+                </div>
+                
+                <div class="destination-card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Kyoto, Japan">
+                    </div>
+                    <div class="card-content">
+                        <h3>Kyoto, Japan</h3>
+                        <p>Japan's ancient capital with over 1,000 Buddhist temples. Experience cherry blossoms, tea ceremonies, and traditional ryokan stays.</p>
+                        <a href="#kyoto" class="btn learn-more" data-destination="kyoto">Learn More</a>
+                    </div>
+                </div>
+                
+                <div class="destination-card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1518391846015-55a9cc003b25?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Santorini, Greece">
+                    </div>
+                    <div class="card-content">
+                        <h3>Santorini, Greece</h3>
+                        <p>Famous for its dramatic views, stunning sunsets, white-washed houses, and beautiful beaches with crystal-clear waters.</p>
+                        <a href="#santorini" class="btn learn-more" data-destination="santorini">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="packages" class="packages">
+            <div class="section-title">
+                <h2>Travel Packages</h2>
+                <p>We offer carefully designed packages to make your travel experience seamless and memorable</p>
+            </div>
+            
+            <div class="package-cards">
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>European Explorer</h3>
+                        <div class="price">₹1,99,999<span>/person</span></div>
+                        <p>10 Days | 4 Countries</p>
+                    </div>
+                    <div class="package-features">
+                        <ul>
+                            <li>Paris, Rome, Barcelona, Amsterdam</li>
+                            <li>4-star accommodations</li>
+                            <li>Daily breakfast included</li>
+                            <li>Guided city tours</li>
+                            <li>Airport transfers</li>
+                        </ul>
+                        <a href="#contact" class="btn">Book Now</a>
+                    </div>
+                </div>
+                
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Asian Adventure</h3>
+                        <div class="price">₹2,49,999<span>/person</span></div>
+                        <p>14 Days | 3 Countries</p>
+                    </div>
+                    <div class="package-features">
+                        <ul>
+                            <li>Tokyo, Kyoto, Bangkok, Bali</li>
+                            <li>Mix of 4-star and traditional stays</li>
+                            <li>All meals included</li>
+                            <li>Cultural experiences</li>
+                            <li>Domestic flights</li>
+                        </ul>
+                        <a href="#contact" class="btn">Book Now</a>
+                    </div>
+                </div>
+                
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Caribbean Escape</h3>
+                        <div class="price">₹1,49,999<span>/person</span></div>
+                        <p>7 Days | All-Inclusive</p>
+                    </div>
+                    <div class="package-features">
+                        <ul>
+                            <li>Luxury beachfront resort</li>
+                            <li>All meals and drinks included</li>
+                            <li>Water sports equipment</li>
+                            <li>Spa credit</li>
+                            <li>Airport transfers</li>
+                        </ul>
+                        <a href="#contact" class="btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="gallery">
+            <div class="section-title">
+                <h2>Photo Gallery</h2>
+                <p>Get inspired by these breathtaking moments captured by our travelers</p>
+            </div>
+            
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1508672019048-805c876b67e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Eiffel Tower, Paris">
+                    <div class="gallery-caption">Berchtesgaden National Park, Germany</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1464037866556-6812c9d1c72e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Fushimi Inari Shrine, Kyoto">
+                    <div class="gallery-caption">Heathrow Airport, London</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Santorini Sunset">
+                    <div class="gallery-caption">Santorini Sunset</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Notre-Dame, Paris">
+                    <div class="gallery-caption">Notre-Dame, Paris</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1470114716159-e389f8712fda?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Arashiyama Bamboo Forest, Kyoto">
+                    <div class="gallery-caption">Arashiyama Bamboo Forest, Kyoto</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Oia Village, Santorini">
+                    <div class="gallery-caption">Oia Village, Santorini</div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="contact">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <p>Have questions or ready to book your dream vacation? Send us a message!</p>
+            </div>
+            
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="interest">Interest (Optional)</label>
+                        <select id="interest" name="interest">
+                            <option value="">Select an option</option>
+                            <option value="europe">European Destinations</option>
+                            <option value="asia">Asian Destinations</option>
+                            <option value="americas">Americas</option>
+                            <option value="africa">Africa</option>
+                            <option value="custom">Custom Package</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    
+    <div id="destination-pages">
+
+        <div id="paris-page" class="destination-page">
+            <a href="#" class="back-btn">&larr; Back to Destinations</a>
+            <div class="destination-header">
+                <img src="https://images.unsplash.com/photo-1503917988258-f87a78e3c995?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Paris, France">
+                <div class="destination-info">
+                    <h2>Paris, France</h2>
+                    <p>Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. Its picturesque 19th-century cityscape is crisscrossed by wide boulevards and the River Seine.</p>
+                    <p>Beyond such landmarks as the Eiffel Tower and the 12th-century, Gothic Notre-Dame cathedral, the city is known for its cafe culture and designer boutiques along the Rue du Faubourg Saint-Honoré.</p>
+                </div>
+            </div>
+            
+            <h3>Must-See Attractions</h3>
+            <div class="highlights">
+                <div class="highlight-card">
+                    <h4>Eiffel Tower</h4>
+                    <p>The iconic iron tower offering breathtaking views of the city from its observation decks.</p>
+                </div>
+                <div class="highlight-card">
+                    <h4>Louvre Museum</h4>
+                    <p>The world's largest art museum and home to the Mona Lisa and Venus de Milo.</p>
+                </div>
+                <div class="highlight-card">
+                    <h4>Notre-Dame Cathedral</h4>
+                    <p>A masterpiece of French Gothic architecture, dating back to the 12th century.</p>
+                </div>
+                <div class="highlight-card">
+                    <h4>Montmartre</h4>
+                    <p>Historic artistic neighborhood with the Sacré-Cœur basilica and charming streets.</p>
+                </div>
+            </div>
+            
+            <h3>Travel Tips</h3>
+            <ul>
+                <li>Best time to visit: April-June and September-October for pleasant weather</li>
+                <li>Public transportation (Metro) is efficient and covers the entire city</li>
+                <li>Learn a few basic French phrases - locals appreciate the effort</li>
+                <li>Purchase museum passes in advance to skip long lines</li>
+            </ul>
+        </div>
+        
+        <div id="kyoto-page" class="destination-page">
+            <a href="#" class="back-btn">&larr; Back to Destinations</a>
+            <div class="destination-header">
+                <img src="https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Kyoto, Japan">
+                <div class="destination-info">
+                    <h2>Kyoto, Japan</h2>
+                    <p>Kyoto, once the capital of Japan, is a city on the island of Honshu. It's famous for its numerous classical Buddhist temples, as well as gardens, imperial palaces, Shinto shrines and traditional wooden houses.</p>
+                    <p>It's also known for formal traditions such as kaiseki dining, consisting of multiple courses of precise dishes, and geisha, female entertainers often found in the Gion district.</p>
+                </div>
+            </div>
+            
+            <h3>Must-See Attractions</h3>
+            <div class="highlights">
+                <div class="highlight-card">
+                    <h4>Kinkaku-ji (Golden Pavilion)</h4>
+                    <p>A Zen temple with its top two floors completely covered in gold leaf.</p>
+                </div>
+                <div class="highlight-card">
+                    <h4>Fushimi Inari Taisha</h4>
+                    <p>Famous for its thousands of vermilion torii gates straddling a network of trails.</p>
+                </div>
+                <div class="highlight-card">
+                    <h4>Arashiyama Bamboo Grove</h4>
+                    <p>A mesmerizing forest of towering bamboo stalks creating a natural tunnel.</p>
+                </div>
+                <div class="highlight-card">
+                    <h4>Gion District</h4>
+                    <p>Kyoto's most famous geisha district with preserved machiya houses.</p>
+                </div>
+            </div>
+            
+            <h3>Travel Tips</h3>
+            <ul>
+                <li>Best time to visit: March-April for cherry blossoms or October-November for fall colors</li>
+                <li>Purchase a JR Pass if arriving from Tokyo for unlimited Shinkansen rides</li>
+                <li>Try traditional kaiseki ryori (multi-course meal) at a ryokan</li>
+                <li>Respect temple etiquette - remove shoes where required</li>
+            </ul>
+        </div>
+        
+        <div id="santorini-page" class="destination-page">
+            <a href="#" class="back-btn">&larr; Back to Destinations</a>
+            <div class="destination-header">
+                <img src="https://images.unsplash.com/photo-1518391846015-55a9cc003b25?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Santorini, Greece">
+                <div class="destination-info">
+                    <h2>Santorini, Greece</h2>
+                    <p>Santorini is one of the Cyclades islands in the Aegean Sea. It was devastated by a volcanic eruption in the 16th century BC, forever shaping its rugged landscape.</p>
+                    <p>The whitewashed, cubiform houses of its 2 principal towns, Fira and Oia, cling to cliffs above an underwater caldera (crater). They overlook the sea, small islands to the west and beaches made up of black, red and white lava pebbles.</p>
+                </div>
+            </div>
+            
+            <h3>Must-See Attractions</h3>
+            <div class="highlights">
+                <div class="highlight-card">
+                    <h4>Oia Village</h4>
+                    <p>Famous for its blue-domed churches, white cave houses, and spectacular sunsets.</p>
+                </div>
+                <div class="highlight-card">
+                    <h4>Red Beach</h4>
+                    <p>Unique beach with red volcanic sand and towering crimson cliffs.</p>
+                </div>
+                <div class="highlight-card">
+                    <h4>Ancient Thera</h4>
+                    <p>Ruins of an ancient city perched on a rocky promontory with panoramic views.</p>
+                </div>
+                <div class="highlight-card">
+                    <h4>Volcano & Hot Springs</h4>
+                    <p>Take a boat tour to the volcanic islands and swim in the warm thermal waters.</p>
+                </div>
+            </div>
+            
+            <h3>Travel Tips</h3>
+            <ul>
+                <li>Best time to visit: Late April to early June and September to October</li>
+                <li>July-August is peak season with crowds and high prices</li>
+                <li>Wear comfortable shoes - lots of steps and uneven paths</li>
+                <li>Try local specialties like fava, white eggplant, and Santorini tomatoes</li>
+            </ul>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="logo">World<span>Explorer</span></div>
+        <p>Making dream vacations come true since 2025</p>
+        
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+        
+        <p>&copy; 2025 WorldExplorer Travel. All rights reserved.</p>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
